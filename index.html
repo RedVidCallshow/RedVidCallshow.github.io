@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Red VidCall show</title>
+    <style>
+      /* Общие стили */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f1f1f1;
+      }
+      
+      /* Стили для заголовка */
+      h1 {
+        color: red;
+        text-align: center;
+        margin-top: 50px;
+      }
+      
+      /* Стили для кнопок */
+      .button {
+        display: inline-block;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #ff6666;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        margin-top: 30px;
+        transition: background-color 0.5s;
+      }
+      
+      /* Анимация при наведении на кнопку */
+      .button:hover {
+        background-color: #e60000;
+      }
+      
+      /* Стили для контейнера с кнопками */
+      .button-container {
+        text-align: center;
+        margin-top: 50px;
+      }
+      
+      /* Медиа-запрос для адаптивности */
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 30px;
+        }
+        .button {
+          font-size: 16px;
+          padding: 8px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Red VidCall show</h1>
+    <div class="button-container">
+      <a href="1.html" class="button">Privacy Policy</a>
+      <a href="2.html" class="button">Terms & Conditions</a>
+      <a href="3.html" class="button">Data Deletion</a>
+    </div>
+  </body>
+</html>
